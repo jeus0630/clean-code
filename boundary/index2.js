@@ -15,4 +15,7 @@ function logUser({name, age, area}){
     return `my name is ${name}, age is ${age}, area is ${area}`;
 }
 
+function logUser2(name,age){
+    logUser(name,age);
+}
 console.log(logUser(obj));
